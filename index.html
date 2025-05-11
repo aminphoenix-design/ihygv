@@ -7,15 +7,29 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- Fondo de partículas -->
   <div id="particles-js"></div>
+
+  <!-- Sección 1: El Umbral -->
   <section id="umbral" class="pantalla activa">
     <div class="contenido-central">
       <img src="assets/images/phoenix-symbol.svg" alt="Símbolo del Fénix" class="simbolo-fenix" />
       <p class="texto-invocacion">Toca el fuego para entrar</p>
     </div>
   </section>
-  <!-- Más secciones aquí: El Olvido, La Llama Interna, etc. -->
-  <audio id="bg-music" src="sounds/ambient.mp3" loop></audio>
+
+  <!-- Sección 2: Las Cenizas -->
+  <section id="cenizas" class="pantalla">
+    <div class="contenido-central">
+      <h1>Todo lo que no arde, muere.</h1>
+      <p>El olvido cubre lo que una vez brilló. Solo el fuego puede recordarles quiénes fueron.</p>
+    </div>
+  </section>
+
+  <!-- Audio de fondo -->
+  <audio id="bg-music" src="sounds/ambient.mp3" loop preload="auto"></audio>
+
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
   <script src="js/main.js"></script>
 </body>
