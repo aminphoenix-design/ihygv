@@ -1,0 +1,21 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Georgia', serif;
+}
+.pantalla {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pantalla.activa {
+  display: flex;
+}
+.simbolo-fenix {
+  width: 150px;
+  cursor: pointer;
+}
